@@ -1,5 +1,11 @@
 # Ruby Cli Wiki
 
+## Disable SSL Verification
+```
+require 'openssl'
+OpenSSL::SSL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE
+```
+
 ## Install
 
 Init the GEM file.
