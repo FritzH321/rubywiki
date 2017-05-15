@@ -18,7 +18,7 @@ TWITTER_API_SECRET="my-twitter-api-secret"
 GITHUB_ACCESS_TOKEN="my-github-access-token"
 ```
 
-### put an env var
+### put an env var (test.rb)
  ```
  # Load the dotenv gem
 require 'dotenv'
@@ -30,4 +30,9 @@ puts "Here are all your current environment variables:"
 
 
 puts ENV['TWITTER_API_SECRET']
+```
+#### run the file:
+
+```
+ruby test.rb
 ```
